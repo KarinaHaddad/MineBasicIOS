@@ -14,8 +14,6 @@
 		6D3B56A122DE4DE1004AF076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3B569F22DE4DE1004AF076 /* LaunchScreen.storyboard */; };
 		6D3B56AC22DE4DE1004AF076 /* FirsIOSProjectConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B56AB22DE4DE1004AF076 /* FirsIOSProjectConcentrationTests.swift */; };
 		6D3B56B722DE4DE1004AF076 /* FirsIOSProjectConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B56B622DE4DE1004AF076 /* FirsIOSProjectConcentrationUITests.swift */; };
-		6D3CF6E522E74CE10046A9C9 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3CF6E422E74CE10046A9C9 /* Concentration.swift */; };
-		6D3CF6E722E74F190046A9C9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3CF6E622E74F190046A9C9 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +47,6 @@
 		6D3B56B222DE4DE1004AF076 /* FirsIOSProjectConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirsIOSProjectConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D3B56B622DE4DE1004AF076 /* FirsIOSProjectConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsIOSProjectConcentrationUITests.swift; sourceTree = "<group>"; };
 		6D3B56B822DE4DE1004AF076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D3CF6E422E74CE10046A9C9 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
-		6D3CF6E622E74F190046A9C9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +97,6 @@
 		6D3B569522DE4DDF004AF076 /* FirsIOSProjectConcentration */ = {
 			isa = PBXGroup;
 			children = (
-				6D3CF6E422E74CE10046A9C9 /* Concentration.swift */,
-				6D3CF6E622E74F190046A9C9 /* Card.swift */,
 				6D3B56C422DF9053004AF076 /* SupportFiles */,
 				6D3B569822DE4DDF004AF076 /* ViewController.swift */,
 				6D3B569A22DE4DDF004AF076 /* Main.storyboard */,
@@ -272,8 +266,6 @@
 			files = (
 				6D3B569922DE4DDF004AF076 /* ViewController.swift in Sources */,
 				6D3B569722DE4DDF004AF076 /* AppDelegate.swift in Sources */,
-				6D3CF6E522E74CE10046A9C9 /* Concentration.swift in Sources */,
-				6D3CF6E722E74F190046A9C9 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
